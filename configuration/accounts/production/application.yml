@@ -1,7 +1,7 @@
 server:
   port: 7777
 
-accounts:
+spring:
   jpa:
     database: postgresql
     properties:
@@ -16,4 +16,5 @@ accounts:
     url: jdbc:postgresql://localhost:5432/postgres
     username: account_manager
     password: account_manager
+application:
   allow-get-accounts: false
