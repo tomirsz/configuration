@@ -16,3 +16,4 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: account_manager
     password: account_manager
+  allow-get-accounts: false
