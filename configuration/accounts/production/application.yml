@@ -1,7 +1,7 @@
 server:
   port: 7777
 
-spring:
+accounts:
   jpa:
     database: postgresql
     properties:
