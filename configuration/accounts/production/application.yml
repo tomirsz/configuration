@@ -17,4 +17,4 @@ spring:
     username: account_manager
     password: account_manager
 application:
-  allow-get-accounts: false
+  allow-get-accounts: true
