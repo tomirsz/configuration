@@ -1,17 +1,6 @@
 server:
   port: 7778
 
-spring:
-  jpa:
-    database: postgresql
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL5Dialect
-        jdbc:
-          lob:
-            non_contextual_creation: true
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-
 application:
   db-username: account_manager
   db-password: account_manager
