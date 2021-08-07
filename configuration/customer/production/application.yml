@@ -1,6 +1,22 @@
 server:
   port: 7778
 
+spring:
+  jpa:
+    database: postgresql
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        jdbc:
+          lob:
+            non_contextual_creation: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+#    username: account_manager
+#    password: account_manager
+
 application:
   db-username: account_manager
   db-password: account_manager
