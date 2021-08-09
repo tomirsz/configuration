@@ -7,6 +7,8 @@ spring:
       group-id: ${spring.application.name}
       properties:
         spring.json.trusted.packages: "org.example.commons"
+        spring.deserializer.key.delegate.class: org.apache.kafka.common.serialization.StringDeserializer
+        spring.deserializer.value.delegate.class: org.springframework.kafka.support.serializer.JsonDeserializer
 management:
   endpoints:
     web:
