@@ -8,11 +8,11 @@ spring:
           lob:
             non_contextual_creation: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    datasource:
-      driver-class-name: org.postgresql.Driver
-      url: jdbc:postgresql://localhost:5432/postgres
-      username: account_manager
-      password: account_manager
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: account_manager
+    password: account_manager
   kafka:
     consumer:
       bootstrap-servers: localhost:9092
